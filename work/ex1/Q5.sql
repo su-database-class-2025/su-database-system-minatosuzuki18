@@ -1,3 +1,4 @@
-SELECT * FROM film;
-    WHERE rating = 'PG' or rating = 'G'
-    LIMIT 5;
+SELECT *
+FROM film
+WHERE rating IN ('PG', 'G')
+LIMIT 5;
